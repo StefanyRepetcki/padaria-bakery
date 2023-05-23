@@ -1,0 +1,47 @@
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <title>ico-social-insta</title>
+
+    <defs>
+        <path d="M15,0 L9,0 C4.029,0 0,4.029 0,9 L0,15 C0,19.971 4.029,24 9,24 L15,24 C19.971,24 24,19.971 24,15 L24,9 C24,4.029 19.971,0 15,0 M15,2 C18.86,2 22,5.14 22,9 L22,15 C22,18.86 18.86,22 15,22 L9,22 C5.14,22 2,18.86 2,15 L2,9 C2,5.14 5.14,2 9,2 L15,2 M19.8457,5.5942 C19.8457,6.3892 19.2007,7.0342 18.4057,7.0342 C17.6107,7.0342 16.9657,6.3892 16.9657,5.5942 C16.9657,4.7992 17.6107,4.1542 18.4057,4.1542 C19.2007,4.1542 19.8457,4.7992 19.8457,5.5942 M12,6.75 C9.101,6.75 6.75,9.101 6.75,12 C6.75,14.899 9.101,17.25 12,17.25 C14.899,17.25 17.25,14.899 17.25,12 C17.25,9.101 14.899,6.75 12,6.75 M12,8.75 C13.792,8.75 15.25,10.208 15.25,12 C15.25,13.792 13.792,15.25 12,15.25 C10.208,15.25 8.75,13.792 8.75,12 C8.75,10.208 10.208,8.75 12,8.75" id="path-1___RkG2eFI1"></path>
+        <rect id="path-3___RkG2eFI1" x="0" y="0" width="24" height="24"></rect>
+        <rect id="path-5___RkG2eFI1" x="0" y="0" width="24" height="24"></rect>
+    </defs>
+    <g id="Newsletter-Contato-Modais___RkG2eFI1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile/footer___RkG2eFI1" transform="translate(-88.000000, -736.000000)">
+            <g id="footer___RkG2eFI1" transform="translate(0.000000, 32.000000)">
+                <g id="modules/footer/mobile___RkG2eFI1" transform="translate(0.000000, 208.000000)">
+                    <g id="main___RkG2eFI1" transform="translate(0.000000, 56.000000)">
+                        <g id="social___RkG2eFI1" transform="translate(24.000000, 440.000000)">
+                            <g id="ico-social-insta___RkG2eFI1" transform="translate(64.000000, 0.000000)">
+                                <mask id="mask-2___RkG2eFI1" fill="white">
+                                    <use xlink:href="#path-1___RkG2eFI1"></use>
+                                </mask>
+                                <g id="Fill-3___RkG2eFI1"></g>
+                                <g id="elements/bg/filled___RkG2eFI1" mask="url(#mask-2___RkG2eFI1)">
+                                    <g id="elements/background___RkG2eFI1">
+                                        <mask id="mask-4___RkG2eFI1" fill="white">
+                                            <use xlink:href="#path-3___RkG2eFI1"></use>
+                                        </mask>
+                                        <g id="Mask___RkG2eFI1"></g>
+                                        <g id="variables/colors/background/secondary___RkG2eFI1" mask="url(#mask-4___RkG2eFI1)">
+                                            <mask id="mask-6___RkG2eFI1" fill="white">
+                                                <use xlink:href="#path-5___RkG2eFI1"></use>
+                                            </mask>
+                                            <use id="color___RkG2eFI1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5___RkG2eFI1"></use>
+                                            <g id="variables/colors/shades/none___RkG2eFI1" mask="url(#mask-6___RkG2eFI1)">
+                                                <g transform="translate(-4.235294, -4.235294)" id="shade___RkG2eFI1">
+                                                    <rect x="0" y="0" width="32" height="32"></rect>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <title>ico-social-facebook</title>
+
+    <defs>
+        <path d="M15,0 L9,0 C4.029,0 0,4.029 0,9 L0,15 C0,19.971 4.029,24 9,24 L15,24 C19.971,24 24,19.971 24,15 L24,9 C24,4.029 19.971,0 15,0 M15,2 C18.86,2 22,5.14 22,9 L22,15 C22,18.86 18.86,22 15,22 L9,22 C5.14,22 2,18.86 2,15 L2,9 C2,5.14 5.14,2 9,2 L15,2 M10.4873,18 L12.9043,18 L12.9043,11.949 L14.5903,11.949 L14.7693,9.923 L12.9043,9.923 L12.9043,8.769 C12.9043,8.292 13.0003,8.103 13.4623,8.103 L14.7693,8.103 L14.7693,6 L13.0963,6 C11.2983,6 10.4873,6.792 10.4873,8.308 L10.4873,9.923 L9.2303,9.923 L9.2303,11.975 L10.4873,11.975 L10.4873,18 Z" id="path-1___4gGij1Ev"></path>
+        <rect id="path-3___4gGij1Ev" x="0" y="0" width="24" height="24"></rect>
+        <rect id="path-5___4gGij1Ev" x="0" y="0" width="24" height="24"></rect>
+    </defs>
+    <g id="Newsletter-Contato-Modais___4gGij1Ev" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile/footer___4gGij1Ev" transform="translate(-24.000000, -736.000000)">
+            <g id="footer___4gGij1Ev" transform="translate(0.000000, 32.000000)">
+                <g id="modules/footer/mobile___4gGij1Ev" transform="translate(0.000000, 208.000000)">
+                    <g id="main___4gGij1Ev" transform="translate(0.000000, 56.000000)">
+                        <g id="social___4gGij1Ev" transform="translate(24.000000, 440.000000)">
+                            <g id="ico-social-facebook___4gGij1Ev">
+                                <mask id="mask-2___4gGij1Ev" fill="white">
+                                    <use xlink:href="#path-1___4gGij1Ev"></use>
+                                </mask>
+                                <g id="Fill-1___4gGij1Ev"></g>
+                                <g id="elements/bg/filled___4gGij1Ev" mask="url(#mask-2___4gGij1Ev)">
+                                    <g id="elements/background___4gGij1Ev">
+                                        <mask id="mask-4___4gGij1Ev" fill="white">
+                                            <use xlink:href="#path-3___4gGij1Ev"></use>
+                                        </mask>
+                                        <g id="Mask___4gGij1Ev"></g>
+                                        <g id="variables/colors/background/secondary___4gGij1Ev" mask="url(#mask-4___4gGij1Ev)">
+                                            <mask id="mask-6___4gGij1Ev" fill="white">
+                                                <use xlink:href="#path-5___4gGij1Ev"></use>
+                                            </mask>
+                                            <use id="color___4gGij1Ev" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5___4gGij1Ev"></use>
+                                            <g id="variables/colors/shades/none___4gGij1Ev" mask="url(#mask-6___4gGij1Ev)">
+                                                <g transform="translate(-4.235294, -4.235294)" id="shade___4gGij1Ev">
+                                                    <rect x="0" y="0" width="32" height="32"></rect>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <title>ico-social-youtube</title>
+
+    <defs>
+        <path d="M15,0 L9,0 C4.029,0 0,4.029 0,9 L0,15 C0,19.971 4.029,24 9,24 L15,24 C19.971,24 24,19.971 24,15 L24,9 C24,4.029 19.971,0 15,0 M15,2 C18.86,2 22,5.14 22,9 L22,15 C22,18.86 18.86,22 15,22 L9,22 C5.14,22 2,18.86 2,15 L2,9 C2,5.14 5.14,2 9,2 L15,2 M15.6782,10.9634 L11.0192,8.2734 C10.2212,7.8134 9.2232,8.3884 9.2232,9.3104 L9.2232,14.6904 C9.2232,15.6114 10.2212,16.1874 11.0192,15.7264 L15.6782,13.0364 C16.4762,12.5754 16.4762,11.4244 15.6782,10.9634" id="path-1___RXF0xDfO"></path>
+        <rect id="path-3___RXF0xDfO" x="0" y="0" width="24" height="24"></rect>
+        <rect id="path-5___RXF0xDfO" x="0" y="0" width="24" height="24"></rect>
+    </defs>
+    <g id="Newsletter-Contato-Modais___RXF0xDfO" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile/footer___RXF0xDfO" transform="translate(-152.000000, -736.000000)">
+            <g id="footer___RXF0xDfO" transform="translate(0.000000, 32.000000)">
+                <g id="modules/footer/mobile___RXF0xDfO" transform="translate(0.000000, 208.000000)">
+                    <g id="main___RXF0xDfO" transform="translate(0.000000, 56.000000)">
+                        <g id="social___RXF0xDfO" transform="translate(24.000000, 440.000000)">
+                            <g id="ico-social-youtube___RXF0xDfO" transform="translate(128.000000, 0.000000)">
+                                <mask id="mask-2___RXF0xDfO" fill="white">
+                                    <use xlink:href="#path-1___RXF0xDfO"></use>
+                                </mask>
+                                <g id="Fill-1___RXF0xDfO"></g>
+                                <g id="elements/bg/filled___RXF0xDfO" mask="url(#mask-2___RXF0xDfO)">
+                                    <g id="elements/background___RXF0xDfO">
+                                        <mask id="mask-4___RXF0xDfO" fill="white">
+                                            <use xlink:href="#path-3___RXF0xDfO"></use>
+                                        </mask>
+                                        <g id="Mask___RXF0xDfO"></g>
+                                        <g id="variables/colors/background/secondary___RXF0xDfO" mask="url(#mask-4___RXF0xDfO)">
+                                            <mask id="mask-6___RXF0xDfO" fill="white">
+                                                <use xlink:href="#path-5___RXF0xDfO"></use>
+                                            </mask>
+                                            <use id="color___RXF0xDfO" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5___RXF0xDfO"></use>
+                                            <g id="variables/colors/shades/none___RXF0xDfO" mask="url(#mask-6___RXF0xDfO)">
+                                                <g transform="translate(-4.235294, -4.235294)" id="shade___RXF0xDfO">
+                                                    <rect x="0" y="0" width="32" height="32"></rect>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

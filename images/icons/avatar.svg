@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>streamline-icon-single-neutral-focus@140x140</title>
+    <g id="V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="M---1.0---HOME-V2" transform="translate(-247.000000, -6378.000000)" stroke="#4A4A4A">
+            <g id="streamline-icon-single-neutral-focus@140x140" transform="translate(248.000000, 6379.000000)">
+                <path d="M3.375,5.81638756 C3.375,8.99565832 5.89339828,11.5729665 9,11.5729665 C12.1066017,11.5729665 14.625,8.99565832 14.625,5.81638756 C14.625,2.6371168 12.1066017,0.0598086124 9,0.0598086124 C5.89339828,0.0598086124 3.375,2.6371168 3.375,5.81638756 Z" id="Path"></path>
+                <path d="M17.6413636,19.9461722 C16.3586105,16.1855088 12.8921608,13.6664039 9,13.6664039 C5.10783921,13.6664039 1.64138947,16.1855088 0.358636364,19.9461722" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
