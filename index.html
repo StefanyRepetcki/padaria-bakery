@@ -14,106 +14,102 @@
 </head>
 
 <body>
-   <main class="main" id="home">
+   <main class="main">
       <nav class="navbar only-desk">
-         <ul>
-            <li><a href="#contact">ENTRAR EM CONTATO</a></li>
+         <ul class="navbar__list">
+            <li class="navbar__item"><a class="navbar__link" href="#contact">ENTRAR EM CONTATO</a></li>
          </ul>
       </nav>
-      <div class="mobile-container only-mobile">
-         <div class="topnav">
+      <div class="navbar-mobile only-mobile">
+         <div class="navbar-mobile__content">
             <div id="menuToggle">
                <div>
-                  <a onclick="functionToggle()" style="font-size: 30px;" href="#">X</a>
+                  <a onclick="functionToggle()" class="navbar-mobile__icon-close" href="#">X</a>
                   <a onclick="functionToggle()" href="#docuras">DOÇURAS</a>
                   <a href="#contact" onclick="functionToggle()">ENTRAR EM CONTATO</a>
                </div>
             </div>
             <a href="javascript:void(0);" class="icon" onclick="functionToggle()">
-               <img class="navigation" src="./images/mobile/navigation.png" alt="navegacao-mobile" />
+               <img draggable="false" class="navbar-mobile__image" src="./images/mobile/navigation.png"
+                  alt="navegacao-mobile" />
             </a>
          </div>
       </div>
-      <section class="hero-banner">
-         <img class="logo only-desk" src="./images/icons/5.png" alt="logo" />
-         <div class="hero-banner_film"></div>
-         <div class="negative">
+      <section class="banner">
+         <img draggable="false" class="banner__logo" src="./images/icons/logocodelikeagirlbrasil.png"
+            alt="banner__logo code like a girl Brasil" />
+         <div class="banner__image"></div>
+         <div class="banner__division">
             <picture>
                <source media="(min-width:600px)" srcset="./images/desk/division.png" />
-               <img src="./images/desk/division.png" alt="divisao-banner-pagina" />
+               <img draggable="false" src="./images/desk/division.png" alt="Divisao entre o banner e a página" />
             </picture>
          </div>
       </section>
       <section class="bakery">
-         <div class="bakery__description">
-            <h2 class="title text-content title-right has-effect" id="t3">
+         <div class="bakery__content">
+            <h2 class="bakery__title has-effect" id="t0">
                Todo doce que aqui é feito recebe uma dose extra de amor, cuidado, e muita, muita dedicação.
             </h2>
-            <div class="wrapper-img-bakery" style="position: relative;">
+            <div class="bakery__description">
                <picture>
                   <source media="(min-width:600px)" srcset="./images/desk/tinified/img-pic2.png" />
-                  <img src="./images/desk/tinified/img-pic2.png"
-                     alt="Lobby e decoração interna do Empreendimento Padaria Bakery" width="100%" class="has-effect"
-                     id="img3" title="Lobby Padaria Bakery" />
+                  <img draggable="false" src="./images/desk/tinified/img-pic2.png" alt="Pães" class="has-effect"
+                     width="100%" id="t12" />
                </picture>
                <picture>
                   <source media="(min-width:600px)" srcset="./images/desk/tinified/img-pic.png" />
-                  <img src="./images/desk/tinified/img-pic.png" style="transform: scaleX(-1) !important;"
-                     alt="Decoração interna do Empreendimento Padaria Bakery" width="100%" class="float-img has-effect"
-                     id="img4" title="Decoração Interna Padaria Bakery" />
+                  <img draggable="false" src="./images/desk/tinified/img-pic.png"
+                     alt="Decoração interna do Empreendimento Padaria Bakery" width="100%"
+                     class="bakery__img has-effect" id="t13" title="Decoração Interna Padaria Bakery" />
                </picture>
-               <p class="text text-mobile-float has-effect" id="t4">
+               <p class="text text-mobile-float has-effect" id="t1">
                   A sofisticação da padaria Bakery
                   <br class="only-mobile" />
                   se uniu a <strong>desenvolvedora <br class="only-mobile" />
                      Front-End
                   </strong>
                   <br class="only-mobile" />
-                  <strong style="color: #FFBD59;">Stéfany Repetcki</strong>, <strong>trazendo para <br
-                        class="only-mobile" />
-                     padarias um projeto inimaginável.</strong>
-                  <a href="#" class="link-button only-desk">
-                     <strong>
-                        COMPRE UMA DOÇURA
-                     </strong>
+                  <strong class="yellow">Stéfany Repetcki</strong>, <strong>trazendo para <br class="only-mobile" />
+                     padarias um projeto inimaginável.</strong><br /><br />
+                  <a href="#contact" class="link-button only-desk">
+                     COMPRE UMA DOÇURA
                   </a>
                </p>
             </div>
-            <a href="#" class="link-button only-mobile">
-               <strong>
-                  COMPRE UMA DOÇURA
-               </strong>
+            <a href="#contact" class="bakery__button only-mobile">
+               COMPRE UMA DOÇURA
             </a>
          </div>
       </section>
-      <div class="description">
-         <div style="position: relative; overflow: hidden;">
+      <section class="description">
+         <div class="description__content">
             <div class="triangle-bottom"></div>
-            <div class="bg-mosaic-black zIndex2">
+            <div class="description__mosaic">
                <section class="block-transcender">
-                  <h2 class="title only-mobile text-content has-effect" id="t5">
+                  <h2 class="description__title title only-mobile text-content has-effect" id="t2">
                      REALIZAR O INIMAGINÁVEL <br />
                      SEMPRE FOI NOSSA <br />
                      INSPIRAÇÃO.
                   </h2>
-                  <div class="blk-transcender-flex">
-                     <div class="blk-img">
+                  <div class="block-padary">
+                     <div class="block-image">
                         <picture>
                            <source media="(min-width:600px)" srcset="./images/desk/portaria.png" />
-                           <img src="./images/desk/portaria.png" alt="Imagem ilustrativa Empreendimento Padaria Bakery"
-                              width="100%" class="has-effect" id="img5"
-                              title="Imagem ilustrativa Empreendimento Padaria Bakery" />
+                           <img draggable="false" src="./images/desk/portaria.png"
+                              alt="Imagem ilustrativa Empreendimento Padaria Bakery" width="100%" class="has-effect"
+                              id="t14" title="Imagem ilustrativa Empreendimento Padaria Bakery" />
                         </picture>
-                        <p class="disclaimer-photo" style="color: white">Frente da Padaria</p>
+                        <p class="disclaimer-photo text-white">Frente da Padaria</p>
                      </div>
-                     <div class="blk-text">
+                     <div class="block-text">
                         <div class="text-content">
-                           <h2 class="title only-desk has-effect text-white" id="t6">
+                           <h2 class="title only-desk has-effect text-white" id="t3">
                               REALIZAR O INIMAGINÁVEL SEMPRE FOI NOSSA INSPIRAÇÃO.
                            </h2>
                            <br class="only-desk" />
                            <br class="only-desk" />
-                           <p class="text has-effect text-white" id="t7">
+                           <p class="text has-effect text-white" id="t4">
                               Dois mundos se encontram: o real e o surreal. E se existisse uma ponte para esses
                               universos?
                               <strong>Trouxemos o melhor do design internacional para morar no Brasil.</strong>
@@ -124,26 +120,26 @@
                      </div>
                   </div>
                </section>
-               <section class="block-exuberance">
-                  <div class="blk-exuberance-flex">
-                     <div class="blk-img">
+               <section class="lobby">
+                  <div class="lobby__content">
+                     <div class="block-image">
                         <picture>
                            <source media="(min-width:600px)" srcset="./images/desk/padariabanner2.png" />
-                           <img src="./images/desk/padariabanner2.png"
+                           <img draggable="false" src="./images/desk/padariabanner2.png"
                               alt="Perspectiva Ilustrada do Lobby Principal do Padaria Bakery" width="100%"
-                              class="has-effect" id="img6" title="Lobby Principal Padaria Bakery" />
+                              class="has-effect" id="t15" title="Lobby Principal Padaria Bakery" />
                         </picture>
                         <p class="disclaimer-photo">
                            PERSPECTIVA ILUSTRADA DO LOBBY PRINCIPAL
                         </p>
                      </div>
-                     <div class="blk-text">
+                     <div class="block-text">
                         <div class="text-content">
-                           <h2 class="title black has-effect" id="t8">
+                           <h2 class="title black has-effect" id="t5">
                               UMA PADARIA FEITA COM MUITO AMOR
                            </h2>
                            <br /><br />
-                           <p class="text black has-effect" id="t9">
+                           <p class="text black has-effect" id="t6">
                               Existe alguém aí que não goste do famoso pão francês? Aquele bem quentinho, fresquinho,
                               que só de bater o olho já nos dá vontade de levar para casa?
                            </p>
@@ -159,29 +155,28 @@
                   <div class="take-me-link">
                      <div class="take-text-content">
                         Gente que ama pão quentinho vive melhor.
-
                      </div>
-                     <a href="#" class="link-button">
-                        <strong>
-                           COMPRE UMA DOÇURA
-                        </strong>
+                     <a href="#contact" class="link-button">
+                        COMPRE UMA DOÇURA
                      </a>
                   </div>
                   <div class="pictures">
                      <picture>
                         <source media="(min-width:600px)" srcset="./images/desk/tinified/croasonho.png" />
-                        <img src="./images/desk/tinified/croasonho.png" title="Lounge Externo do Padaria Bakery"
+                        <img draggable="false" src="./images/desk/tinified/croasonho.png"
+                           title="Lounge Externo do Padaria Bakery"
                            alt="Praça e Lounge Externo do Empreendimento Padaria Bakery" width="100%" class="has-effect"
-                           id="img7" />
+                           id="t16" />
                      </picture>
                      <p class="disclaimer-photo">Croasonho</p>
                   </div>
                   <div class="pictures">
                      <picture>
                         <source media="(min-width:600px)" srcset="./images/desk/tinified/sonho.png" />
-                        <img src="./images/desk/tinified/sonho.png" title="Garagem com teto de Vidro no Padaria Bakery"
+                        <img draggable="false" src="./images/desk/tinified/sonho.png"
+                           title="Garagem com teto de Vidro no Padaria Bakery"
                            alt="Interior da Garagem com Teto de Vidro no Padaria Bakery" width="100%" class="has-effect"
-                           id="img8" />
+                           id="t17" />
                      </picture>
                      <p class="disclaimer-photo">
                         Sonho
@@ -190,9 +185,9 @@
                   <div class="pictures">
                      <picture>
                         <source media="(min-width:600px)" srcset="./images/desk/tinified/paofrances.png" />
-                        <img src="./images/desk/tinified/paofrances.png"
+                        <img draggable="false" src="./images/desk/tinified/paofrances.png"
                            title="Spa e Piscina com Cascata no Padaria Bakery"
-                           alt="Piscina interna com Cascata Padaria Bakery" width="100%" class="has-effect" id="img9" />
+                           alt="Piscina interna com Cascata Padaria Bakery" width="100%" class="has-effect" id="t18" />
                      </picture>
                      <p class="disclaimer-photo">
                         Pão Frances
@@ -201,19 +196,19 @@
                   <div class="pictures">
                      <picture>
                         <source media="(min-width:600px)" srcset="./images/desk/tinified/paodequeijo.png" />
-                        <img src="./images/desk/tinified/paodequeijo.png"
+                        <img draggable="false" src="./images/desk/tinified/paodequeijo.png"
                            title="Piscina Cobera, SPA e Pool no Padaria Bakery"
                            alt="Área interna com Piscina Coberta no Padaria Bakery" width="100%" class="has-effect"
-                           id="img10" />
+                           id="t19" />
                      </picture>
                      <p class="disclaimer-photo">TEXTO</p>
                   </div>
                   <div class="pictures">
                      <picture>
                         <source media="(min-width:600px)" srcset="./images/desk/tinified/brownie.png" />
-                        <img src="./images/desk/tinified/brownie.png" title="Bolos no Padaria Bakery"
+                        <img draggable="false" src="./images/desk/tinified/brownie.png" title="Bolos no Padaria Bakery"
                            alt="Bolos e Suspensa Acima das Árvores no Padaria Bakery" width="100%" class="has-effect"
-                           id="img11" />
+                           id="t20" />
                      </picture>
                      <p class="disclaimer-photo">
                         Brownie
@@ -224,30 +219,28 @@
                   <div class="take-me-link">
                      <div class="take-text-content">
                         Gente que ama pão quentinho vive melhor.
-
                      </div>
-                     <a href="#" class="link-button">
-                        <strong>
-                           COMPRE UMA DOÇURA
-                        </strong>
+                     <a href="#contact" class="link-button">
+                        COMPRE UMA DOÇURA
                      </a>
                   </div>
                   <div class="col-1">
                      <div class="pictures">
                         <picture>
                            <source media="(min-width:600px)" srcset="./images/desk/tinified/croasonho.png" />
-                           <img src="./images/desk/tinified/croasonho.png" title="Lounge Externo do Padaria Bakery"
+                           <img draggable="false" src="./images/desk/tinified/croasonho.png"
+                              title="Lounge Externo do Padaria Bakery"
                               alt="Praça e Lounge Externo do Empreendimento Padaria Bakery" width="100%"
-                              class="has-effect  min-image" id="img12" />
+                              class="has-effect  min-image" id="t21" />
                         </picture>
                         <p class="disclaimer-photo">Croasonho</p>
                      </div>
                      <div class="pictures">
                         <picture>
                            <source media="(min-width:600px)" srcset="./images/desk/tinified/paofrances.png" />
-                           <img src="./images/desk/tinified/paofrances.png" title="Spa e
+                           <img draggable="false" src="./images/desk/tinified/paofrances.png" title="Spa e
                                  Piscina com Cascata no Padaria Bakery"" alt=" Piscina interna com Cascata Padaria
-                              Bakery" width="100%" class="has-effect" id="img13" />
+                              Bakery" width="100%" class="has-effect" id="t22" />
                         </picture>
                         <p class="disclaimer-photo">
                            Pão Frances
@@ -256,10 +249,10 @@
                      <div class="pictures">
                         <picture>
                            <source media="(min-width:600px)" srcset="./images/desk/tinified/paodequeijo.png" />
-                           <img src="./images/desk/tinified/paodequeijo.png"
+                           <img draggable="false" src="./images/desk/tinified/paodequeijo.png"
                               title="Piscina Cobera, SPA e Pool no Padaria Bakery"
                               alt="Área interna com Piscina Coberta no Padaria Bakery" width="100%"
-                              class="has-effect  min-image" id="img14" />
+                              class="has-effect  min-image" id="t23" />
                         </picture>
                         <p class="disclaimer-photo">Pão de queijo</p>
                      </div>
@@ -268,10 +261,10 @@
                      <div class="pictures">
                         <picture>
                            <source media="(min-width:600px)" srcset="./images/desk/tinified/sonho.png" />
-                           <img src="./images/desk/tinified/sonho.png"
+                           <img draggable="false" src="./images/desk/tinified/sonho.png"
                               title="Garagem com teto de Vidro no Padaria Bakery"
                               alt="Interior da Garagem com Teto de Vidro no Padaria Bakery" width="100%"
-                              class="has-effect" id="img15" />
+                              class="has-effect" id="t24" />
                         </picture>
                         <p class="disclaimer-photo">
                            Sonho
@@ -280,9 +273,9 @@
                      <div class="pictures">
                         <picture>
                            <source media="(min-width:600px)" srcset="./images/desk/tinified/brownie.png" />
-                           <img src="./images/desk/tinified/brownie.png" title="Bolos no Padaria Bakery"
-                              alt="Bolos e Suspensa Acima das Árvores no Padaria Bakery" width="100%" class="has-effect"
-                              id="img16" />
+                           <img draggable="false" src="./images/desk/tinified/brownie.png"
+                              title="Bolos no Padaria Bakery" alt="Bolos e Suspensa Acima das Árvores no Padaria Bakery"
+                              width="100%" class="has-effect" id="t25" />
                         </picture>
                         <p class="disclaimer-photo">
                            Brownie
@@ -292,146 +285,143 @@
                </div>
             </section>
          </div>
-      </div>
-      <div style="position: relative;">
-         <section class="location">
-            <div class="bg-mosaic-white bg-mosaic-with-mask">
-               <div class="text-content">
-                  <h2 class="title black has-effect" id="t14">
-                     NA PADARIA FAZEMOS SONHOS <br class="only-mobile" />
-                     CAFÉS, BOLOS E MUITO MAIS.
-                  </h2>
-               </div>
-               <div class="has-effect" id="t19">
-                  <video id="video" poster="./images/desk/poster.jpg" controls loop muted playsinline>
-                     <source id="srcVideo" src="./videos/banner_desk.mp4"
-                        type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"' />
-                     Your browser does not support HTML video.
-                  </video>
-               </div>
-               <div class="blk-location-flex">
-                  <div class="blk-text">
-                     <div class="fix-width">
-                        <p class="text black has-effect" id="t16">
-                           A PADARIA LUXUOSA E EXCLUSIVA LOCALIZADA EM UM DOS BAIRROS MAIS
-                           DESEJADOS DO BRASIL.
-                        </p>
-                        <p class="text black only-desk has-effect" id="t18">
-                           <br />
-                           <a style="text-decoration: none; color: #000;" target="_blank" href="#">
-                              Endereço:<br />
-                              <strong>
-                                 Av. dos Padeiros,
-                                 404 - Brasil.
-                              </strong>
-                           </a>
-                        </p>
-                     </div>
-                  </div>
-                  <div class="blk-img">
-                     <picture>
-                        <source media="(min-width:600px)" srcset="./images/desk/portaria.png" />
-                        <img src="./images/desk/portaria.png" title="Vista para o Ibirapuera Padaria Bakery"
-                           alt="Vista parorâmica para o parque do Padaria Bakery" class="has-effect" id="img18" />
-                     </picture>
-                     <p class="disclaimer-photo" style="margin-left: 0;">PERSPECTIVA ILUSTRADA DA PORTARIA</p>
-                     <p class="text text-content black only-mobile has-effect" id="t17">
-                        <a style="text-decoration: none; color: #000;" target="_blank" href="#">
-                           Endereço: <br />
-                           <strong>
-                              Av. dos Padeiros,
-                              404 - Brasil.
-                           </strong>
-                        </a>
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <section class="contact" id="contact">
-            <div class="bg-mosaic-with-mask">
-               <div class="card-form">
-                  <div class="text-form" id="form-title">
-                     <h2 class="title black">
-                        FALE COM UM ATENDENTE:
-                     </h2>
-                     <p class="text black">Escolha a melhor forma de contato para falarmos com você</p>
-                     <button class="button gold" id='open-chat'>
-                        <img src="./images/icons/contact/conversation.svg" width="20px" alt="Chat Online">
-                        <span>CHAT ONLINE</span>
-                     </button>
-                     <div class="text-form-item" id="open-email">
-                        <div class="text-form-item-image">
-                           <img src="./images/icons/contact/email.svg" alt="E-mail" />
-                           <p class="text-form-item-text">
-                              E-mail
-                           </p>
-                        </div>
-                     </div>
-                     <div class="text-form-item" id="open-whatsapp">
-                        <div class="text-form-item-image">
-                           <img src="./images/icons/contact/whatsapp.svg" alt="Whatsapp" />
-                           <p class="text-form-item-text">
-                              Whatsapp
-                           </p>
-                        </div>
-                     </div>
-                     <div class="text-form-item" id="open-call-u">
-                        <div class="text-form-item-image">
-                           <img src="./images/icons/contact/call-u.svg" alt="Ligamos pra você" />
-                           <p class="text-form-item-text">
-                              Ligamos pra você
-                           </p>
-                        </div>
-                     </div>
-                     <div class="text-form-item" id="open-call-us">
-                        <div class="text-form-item-image">
-                           <img src="./images/icons/contact/call-us.svg" alt="Telefone de contato" />
-                           <p class="text-form-item-text">
-                              Telefone de contato
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div id="contact-success" class="contact-success hidden">
-               <h2 class="title black">
-                  BEM VINDO A MELHOR PADARIA DO BRASIL<br />
-                  Padaria Bakery
+      </section>
+      <section class="location">
+         <div class="bg-mosaic-white bg-mosaic-with-mask">
+            <div class="text-content">
+               <h2 class="title black has-effect" id="t7">
+                  NA PADARIA FAZEMOS SONHOS <br class="only-mobile" />
+                  CAFÉS, BOLOS E MUITO MAIS.
                </h2>
-               <p class="text black">
-                  Você é nosso convidado especial. <br />
-                  Em breve retornaremos seu contato.
-               </p>
-               <img height="56px" src="./images/icons/gold.svg" alt="Icone gold" />
             </div>
-      </div>
+            <div class="has-effect" id="t11">
+               <video id="video" poster="./images/desk/poster.jpg" loop muted>
+                  <source id="srcVideo" src="./videos/banner_desk.mp4"
+                     type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"' />
+                  Your browser does not support HTML video.
+               </video>
+            </div>
+            <div class="location__content">
+               <div class="block-text">
+                  <p class="text black has-effect" id="t8">
+                     A PADARIA LUXUOSA E EXCLUSIVA LOCALIZADA EM UM DOS BAIRROS MAIS
+                     DESEJADOS DO BRASIL.
+                  </p>
+                  <br />
+                  <p class="only-desk has-effect" id="t10">
+                     <a class="text black" target="_blank" href="#">
+                        Endereço:<br />
+                        <strong>
+                           Av. dos Padeiros,
+                           404 - Brasil.
+                        </strong>
+                     </a>
+                  </p>
+               </div>
+               <div class="block-image">
+                  <picture>
+                     <source media="(min-width:600px)" srcset="./images/desk/portaria.png" />
+                     <img draggable="false" src="./images/desk/portaria.png"
+                        title="Vista para o Ibirapuera Padaria Bakery" alt="Padaria Bakery" width="100%"
+                        class="has-effect" id="t26" />
+                  </picture>
+                  <p class="disclaimer-photo">PERSPECTIVA ILUSTRADA DA PORTARIA</p>
+                  <p class="text-content only-mobile has-effect" id="t9">
+                     <a class="text black" target="_blank" href="#">
+                        Endereço: <br />
+                        <strong>
+                           Av. dos Padeiros,
+                           404 - Brasil.
+                        </strong>
+                     </a>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="contact" id="contact">
+         <div class="bg-mosaic-with-mask">
+            <div class="contact__content">
+               <div class="text-form" id="form-title">
+                  <h2 class="title black">
+                     FALE COM UM ATENDENTE:
+                  </h2>
+                  <p class="text black">Escolha a melhor forma de contato para falarmos com você</p>
+                  <button class="button gold" id='open-chat'>
+                     <img draggable="false" src="./images/icons/contact/conversation.svg" alt="Chat Online">
+                     <span>CHAT ONLINE</span>
+                  </button>
+                  <div class="contact__card" id="open-email">
+                     <div class="contact__image">
+                        <img draggable="false" src="./images/icons/contact/email.svg" alt="E-mail" />
+                        <p class="contact__type">
+                           E-mail
+                        </p>
+                     </div>
+                  </div>
+                  <div class="contact__card" id="open-whatsapp">
+                     <div class="contact__image">
+                        <img draggable="false" src="./images/icons/contact/whatsapp.svg" alt="Whatsapp" />
+                        <p class="contact__type">
+                           Whatsapp
+                        </p>
+                     </div>
+                  </div>
+                  <div class="contact__card" id="open-call-u">
+                     <div class="contact__image">
+                        <img draggable="false" src="./images/icons/contact/call-u.svg" alt="Ligamos pra você" />
+                        <p class="contact__type">
+                           Ligamos pra você
+                        </p>
+                     </div>
+                  </div>
+                  <div class="contact__card" id="open-call-us">
+                     <div class="contact__image">
+                        <img draggable="false" src="./images/icons/contact/call-us.svg" alt="Telefone de contato" />
+                        <p class="contact__type">
+                           Telefone de contato
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="contact__success" class="contact__success hidden">
+            <h2 class="title black">
+               BEM VINDO A MELHOR PADARIA DO BRASIL<br />
+               Padaria Bakery
+            </h2>
+            <p class="text black">
+               Você é nosso convidado especial. <br />
+               Em breve retornaremos seu contato.
+            </p>
+            <img draggable="false" height="56px" src="./images/icons/gold.svg" alt="Icone gold" />
+         </div>
+      </section>
       </section>
       </div>
       <a href="#contact">
-         <div class="fake-chat">
-            <div class="fix-position">
+         <div class="chat">
+            <div class="chat__content">
                <div id="chatPadary" class="animate__animated">
-                  <div class="ballon">
+                  <div class="chat__pop-up">
                      <span>
                         OLÁ, DESEJA SABER MAIS SOBRE A PADARIA?
                      </span>
                   </div>
                </div>
-               <div class="circle">
-                  <img height="auto" src="./images/icons/2.png" alt="Icone casinha chat"
-                     style="filter: brightness(0) invert(1);" />
+               <div class="chat__icon">
+                  <img draggable="false" height="auto" src="./images/icons/2.png" alt="Icone casinha chat" />
                </div>
             </div>
          </div>
       </a>
    </main>
    <aside>
-      <div class="main-modal">
-         <div class="modal-shadow">
-            <div class="modal-content">
-               <div id="modal-close">
+      <div class="chat-modal">
+         <div class="chat-modal__background">
+            <div class="chat-modal__content">
+               <div id="chat-modal__close">
                   <p>x</p>
                </div>
                <div class="modal-chat hidden">
@@ -441,15 +431,15 @@
                      <form>
                         <div class="input-with-icon">
                            <input class="input" type="text" name="nome" id="name-chat" placeholder="nome" />
-                           <img src="./images/icons/avatar.svg" alt="Icone de avatar" />
+                           <img draggable="false" src="./images/icons/avatar.svg" alt="Icone de avatar" />
                         </div>
                         <div class="input-with-icon">
                            <input class="input" type="tel" name="telefone" id="phone-chat" placeholder="telefone" />
-                           <img src="./images/icons/phone.svg" alt="Icone de telefone" />
+                           <img draggable="false" src="./images/icons/phone.svg" alt="Icone de telefone" />
                         </div>
                         <div class="input-with-icon">
                            <input class="input" type="text" name="email" id="email-chat" placeholder="email" />
-                           <img src="./images/icons/mail.svg" alt="Icone de email" />
+                           <img draggable="false" src="./images/icons/mail.svg" alt="Icone de email" />
                         </div>
                         <input type="checkbox" class="input-check" id="news-chat" />
                         <label for="news-chat">Desejo receber novidades da Padaria Bakery</label>
@@ -467,15 +457,15 @@
                      <form>
                         <div class="input-with-icon">
                            <input class="input" type="text" name="nome" id="name-mail" placeholder="nome" />
-                           <img src="./images/icons/avatar.svg" alt="Icone de avatar" />
+                           <img draggable="false" src="./images/icons/avatar.svg" alt="Icone de avatar" />
                         </div>
                         <div class="input-with-icon">
                            <input class="input" type="tel" name="telefone" id="phone-mail" placeholder="telefone" />
-                           <img src="./images/icons/phone.svg" alt="Icone de telefone" />
+                           <img draggable="false" src="./images/icons/phone.svg" alt="Icone de telefone" />
                         </div>
                         <div class="input-with-icon">
                            <input class="input" type="text" name="email" id="email-mail" placeholder="email" />
-                           <img src="./images/icons/mail.svg" alt="Icone de email" />
+                           <img draggable="false" src="./images/icons/mail.svg" alt="Icone de email" />
                         </div>
                         <input type="checkbox" class="input-check" id="news-mail" value="news" />
                         <label for="news-mail">Desejo receber novidades da Padaria Bakery</label>
@@ -494,11 +484,11 @@
                      <form>
                         <div class="input-with-icon">
                            <input class="input" type="text" name="nome" id="name-whats" placeholder="nome" />
-                           <img src="./images/icons/avatar.svg" alt="Icone de avatar" />
+                           <img draggable="false" src="./images/icons/avatar.svg" alt="Icone de avatar" />
                         </div>
                         <div class="input-with-icon">
                            <input class="input" type="tel" name="telefone" id="phone-whats" placeholder="telefone" />
-                           <img src="./images/icons/phone.svg" alt="Icone de telefone" />
+                           <img draggable="false" src="./images/icons/phone.svg" alt="Icone de telefone" />
                         </div>
                         <div class="button-holder">
                            <button class="btn-back" id="backWhatsForm">Voltar</button>
@@ -514,11 +504,11 @@
                      <form>
                         <div class="input-with-icon">
                            <input class="input" type="text" name="nome" id="name-call-u" placeholder="nome" />
-                           <img src="./images/icons/avatar.svg" alt="Icone de avatar" />
+                           <img draggable="false" src="./images/icons/avatar.svg" alt="Icone de avatar" />
                         </div>
                         <div class="input-with-icon">
                            <input class="input" type="tel" name="telefone" id="phone-call-u" placeholder="telefone" />
-                           <img src="./images/icons/phone.svg" alt="Icone de telefone" />
+                           <img draggable="false" src="./images/icons/phone.svg" alt="Icone de telefone" />
                         </div>
                         <div class="input-dropdown">
                            <label>Horário para contato:</label>
@@ -542,14 +532,15 @@
                   <h2 class="title black">OU</h2>
                   <p class="text black">Ou entre em contato pelo chat e tire suas dúvidas agora mesmo.</p>
                   <button class="button gold" id='open-chat-inside'>
-                     <img src="./images/icons/contact/conversation.svg" width="20px" alt="Chat Online">
+                     <img draggable="false" src="./images/icons/contact/conversation.svg" width="20px"
+                        alt="Chat Online">
                      <span>CHAT ONLINE</span>
                   </button>
                </div>
                <div class="modal-success hidden">
                   <div class="modal-success-container">
                      <div class="modal-success-img-holder">
-                        <img src="./images/icons/contact/success.svg" alt="Icone de sucesso">
+                        <img draggable="false" src="./images/icons/contact/success.svg" alt="Icone de sucesso">
                      </div>
                      <div class="modal-success-title">
                         <h2 class="title green">
@@ -566,7 +557,7 @@
                <div class="modal-error hidden">
                   <div class="modal-error-container">
                      <div class="modal-error-img-holder">
-                        <img src="./images/icons/contact/error.svg" alt="Icone de erro">
+                        <img draggable="false" src="./images/icons/contact/error.svg" alt="Icone de erro">
                      </div>
                      <div class="modal-error-title">
                         <h2 class="title red">
@@ -578,85 +569,42 @@
                      </div>
                   </div>
                </div>
-               <div class="modal-mobi hidden">
-                  <iframe id="mobi-chat" width="100%" height="100%" src=""></iframe>
-               </div>
             </div>
          </div>
       </div>
    </aside>
-   <footer class="scroll-no">
-      <div class="wrapper scroll-no">
-         <div class="footer-padaria only-desk">
-            <img src="./images/icons/5.png" alt="Logo texto" />
-         </div>
+   <footer>
+      <div class="footer-padaria only-desk">
+         <img draggable="false" src="./images/icons/logocodelikeagirlbrasil.png" alt="Logo no rodapé" />
       </div>
-      <div>
-         <ul class="scroll-no">
+      <div class="footer-content">
+         <ul>
             <li>PADARIA BAKERY</li>
-            <li><a href="#home"> Home </a></li>
+            <li><a href="#">Home</a></li>
          </ul>
-         <ul class="scroll-no">
+         <ul>
             <li>SOBRE NÓS</li>
-            <li>
-               <a target="_blank" href="#">
-                  A Padaria Bakery
-               </a>
-            </li>
-            <li>
-               <a href="#">
-                  Como construímos
-               </a>
-            </li>
-            <li>
-               <a target="_blank" href="#">
-                  Trabalhe Conosco
-               </a>
-            </li>
+            <li><a target="_blank" href="#">A Padaria Bakery</a></li>
+            <li><a href="#">Como construímos</a></li>
+            <li><a target="_blank" href="#">Trabalhe Conosco</a></li>
          </ul>
-         <ul class="scroll-no">
+         <ul>
             <li>GRUPO PADEIROS</li>
-            <li>
-               <a target="_blank" href="#">
-                  Também somos massa
-               </a>
-            </li>
-            <li>
-               <a target="_blank" href="#">
-                  Também somos doçuras
-               </a>
-            </li>
-            <li>
-               <a target="_blank" href="#">
-                  Também somos quentes
-               </a>
-            </li>
-            <li>
-               <a target="_blank" href="#">
-                  Também somos enérgicos
-               </a>
-            </li>
+            <li><a target="_blank" href="#">Também somos massa</a></li>
+            <li><a target="_blank" href="#">Também somos doçuras</a></li>
+            <li><a target="_blank" href="#">Também somos quentes</a></li>
+            <li><a target="_blank" href="#">Também somos enérgicos</a></li>
          </ul>
-         <ul class="social scroll-no">
-            <li>
-               <a target="_blank" href="https://www.facebook.com/codelikeagirlbrasil">
-                  <img src="./images/icons/facebook.svg" alt="Icone do facebook" />
-               </a>
-            </li>
-            <li>
-               <a target="_blank" href="https://www.instagram.com/codelikeagirlbrasil">
-                  <img src="./images/icons/insta.svg" alt="Icone do instagram" />
-               </a>
-            </li>
-            <li>
-               <a target="_blank" href="#">
-                  <img src="./images/icons/youtube.svg" alt="Icone do Youtube" />
-               </a>
-            </li>
+         <ul class="social">
+            <li><a target="_blank" href="https://www.facebook.com/codelikeagirlbrasil"><img draggable="false"
+                     src="./images/icons/facebook.svg" alt="Icone do facebook" /></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/codelikeagirlbrasil"><img draggable="false"
+                     src="./images/icons/insta.svg" alt="Icone do instagram" /></a></li>
+            <li><a target="_blank" href="#"><img draggable="false" src="./images/icons/youtube.svg"
+                     alt="Icone do Youtube" /></a></li>
          </ul>
       </div>
    </footer>
-
    <script src="./js/jquery.js"></script>
    <script src="./js/jquery.mask.min.js"></script>
    <script src="./js/lodash.js"></script>
@@ -664,374 +612,159 @@
    <script>
       function functionToggle() {
          var x = document.getElementById("menuToggle");
-         if (x.style.display === "block") {
-            x.style.display = "none";
-         } else {
-            x.style.display = "block";
-         }
+         x.style.display = x.style.display === "block" ? "none" : "block";
       }
-      jQuery(document).ready(function ($) {
-         const idImovel = 2360;
-         const idCidade = 1;
-         const IdImovelOrigem = 1;
 
-         $("#phone-chat").mask("(00) 00000-0000");
-         $("#phone-mail").mask("(00) 00000-0000");
-         $("#phone-whats").mask("(00) 00000-0000");
-         $("#phone-call-u").mask("(00) 00000-0000");
-         $("#news-chat").change(function () {
+      $(document).ready(function () {
+         $("#phone-chat, #phone-mail, #phone-whats, #phone-call-u").mask("(00) 00000-0000");
+
+         $("#news-chat, #news-mail").change(function () {
             $(this).toggleClass("checked");
          });
-         $("#news-mail").change(function () {
-            $(this).toggleClass("checked");
-         });
-
-         window.mobileCheck = function () {
-            var check = false;
-            (function (a) {
-               if (
-                  /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(
-                     a
-                  ) ||
-                  /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(
-                     a.substr(0, 4)
-                  )
-               )
-                  check = true;
-            })(navigator.userAgent || navigator.vendor || window.opera);
-            return check;
-         };
-
-         var lastScrollTop = 0;
 
          setInterval(function () {
-            if ($("#chatPadary").hasClass("animate__fadeIn")) {
-               $("#chatPadary").removeClass("animate__fadeIn");
-               $("#chatPadary").addClass("animate__fadeOut");
-            } else {
-               $("#chatPadary").removeClass("animate__fadeOut");
-               $("#chatPadary").addClass("animate__fadeIn");
-            }
+            $("#chatPadary").toggleClass("animate__fadeIn animate__fadeOut");
          }, 5000);
 
          var Video = document.getElementById("video");
          Video.play();
 
          function showElement(id) {
-            $(id).css("visibility", "visible");
-            $(id).addClass("animate__animated animate__fadeInUp");
+            $(id).css("visibility", "visible").addClass("animate__animated animate__fadeInUp");
          }
 
          function checkIsVisible(id, wh) {
             if ($(id).offset().top <= wh) {
-               $(id).css("visibility", "visible");
-               $(id).addClass("animate__animated animate__fadeInUp");
+               $(id).css("visibility", "visible").addClass("animate__animated animate__fadeInUp");
             }
          }
 
          function isEmail(email) {
             var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-            if (email == "") return false;
             return regex.test(email);
          }
 
-         // Modal handle
-         //
-         // 1 - Modal Chat
+         // Modal Handlers
+         function openModal(modal) {
+            $(".chat-modal").css({
+               opacity: 1,
+               "z-index": 21
+            });
+            modal.removeClass('hidden').addClass('active');
+         }
+
+         function closeModal() {
+            $(".chat-modal").css({
+               opacity: 0,
+               "z-index": -1
+            });
+            $(".chat-modal__content .active").addClass("hidden").removeClass("active");
+         }
+
          $("#open-chat").click(function () {
-            $(".main-modal").css("opacity", 1);
-            $(".main-modal").css("z-index", 21);
-            $(".modal-chat").removeClass('hidden');
-            $(".modal-chat").addClass('active');
-         })
-         // 2 - Modal Email
+            openModal($(".modal-chat"));
+         });
+
          $("#open-email").click(function () {
-            $(".main-modal").css("opacity", 1);
-            $(".main-modal").css("z-index", 21);
-            $(".modal-email").removeClass('hidden');
-            $(".modal-email").addClass('active');
-         })
-         // 3 - Modal WhatsApp
+            openModal($(".modal-email"));
+         });
+
          $("#open-whatsapp").click(function () {
-            $(".main-modal").css("opacity", 1);
-            $(".main-modal").css("z-index", 21);
-            $(".modal-whatsapp").removeClass('hidden');
-            $(".modal-whatsapp").addClass('active');
-         })
-         // 4 - Modal We Call You
+            openModal($(".modal-whatsapp"));
+         });
+
          $("#open-call-u").click(function () {
-            $(".main-modal").css("opacity", 1);
-            $(".main-modal").css("z-index", 21);
-            $(".modal-call-u").removeClass('hidden');
-            $(".modal-call-u").addClass('active');
-         })
-         // 5 - Modal Call Us
+            openModal($(".modal-call-u"));
+         });
+
          $("#open-call-us").click(function () {
-            $(".main-modal").css("opacity", 1);
-            $(".main-modal").css("z-index", 21);
-            $(".modal-call-us").removeClass('hidden');
-            $(".modal-call-us").addClass('active');
-         })
+            openModal($(".modal-call-us"));
+         });
+
          $("#open-chat-inside").click(function () {
             $(".modal-call-us").addClass('hidden');
-            $(".modal-chat").removeClass('hidden');
-            $(".modal-chat").addClass('active');
+            $(".modal-chat").removeClass('hidden').addClass('active');
             $(".modal-call-us").removeClass('active');
-         })
-         // Close Modal
-         $("#modal-close, .btn-back").click(function () {
-            event.preventDefault();
-            $(".main-modal").css("opacity", 0);
-            $(".main-modal").css("z-index", -1);
-            $(".modal-content .active").addClass("hidden");
-            $(".modal-content .active").removeClass("active");
-            if ($(".modal-content").hasClass("stretch")) {
-               $(this).removeClass("stretch");
-               $("#mobi-chat").attr("src", "");
-            }
-         })
+         });
 
-         // Form sending
-         //
-         // 1 - Form Chat
+         $("#chat-modal__close, .btn-back").click(function (event) {
+            event.preventDefault();
+            closeModal();
+         });
+
+         // Form Handlers
+         function validateForm(input, minLength) {
+            var pass = true;
+            if (input.val().length < minLength) {
+               input.css("border", "1px solid red");
+               pass = false;
+            } else {
+               input.css("border", "1px solid black");
+            }
+            return pass;
+         }
+
          $("#sendChatForm").click(function (event) {
             event.preventDefault();
-            $("#sendChatForm").attr("disabled", true);
-            $("#backChatForm").attr("disabled", true);
-            var pass = true;
-            if ($("#name-chat").val() < 3) {
-               $("#name-chat").css("border", "1px solid red");
-               pass = false;
-            } else {
-               pass = true;
-               $("#name-chat").css("border", "1px solid black");
-            }
-            if ($("#phone-chat").val() < 15) {
-               $("#phone-chat").css("border", "1px solid red");
-               pass = false;
-            } else {
-               pass = true;
-               $("#phone-chat").css("border", "1px solid black");
-            }
-            if (!isEmail($("#email-chat").val())) {
-               $("#email-chat").css("border", "1px solid red");
-               pass = false;
-            } else {
-               pass = true;
-               $("#email-chat").css("border", "1px solid black");
-            }
+            var nameInput = $("#name-chat");
+            var phoneInput = $("#phone-chat");
+            var emailInput = $("#email-chat");
+
+            var pass = validateForm(nameInput, 3) &&
+               validateForm(phoneInput, 15) &&
+               isEmail(emailInput.val());
 
             if (pass) {
-               var gaTags = window.JSCOOKIES.get("__utmz") || "";
-               var gaCode = window.JSCOOKIES.get("_ga") || "";
-               var gaSend = {
-                  UtmSource: "",
-                  UtmCampaign: "",
-                  UtmMedium: "",
-                  UtmTerm: "",
-                  UtmContent: "",
-                  CodigoGa: "",
-               };
-
-
-               var data = {
-                  idCidade: idCidade,
-                  IdImovelOrigem: IdImovelOrigem,
-                  IdImovel: idImovel,
-                  Nome: $("#name-chat").val(),
-                  Email: $("#email-chat").val(),
-                  Telefone: $("#phone-chat").val(),
-                  ReceberNovidades: $("#news-chat").hasClass("checked"),
-               };
-               Object.keys(gaSend).forEach((e) => (data[e] = gaSend[e]));
-
-               let idLead = "";
+               closeModal();
             }
          });
-         // 2 - Form E-Mail
+
          $("#sendMailForm").click(function (event) {
             event.preventDefault();
-            $("#sendMailForm").attr("disabled", true);
-            $("#backMailForm").attr("disabled", true);
-            var pass = true;
-            if ($("#name-mail").val() < 3) {
-               $("#name-mail").css("border", "1px solid red");
-               pass = false;
-            } else {
-               pass = true;
-               $("#name-mail").css("border", "1px solid black");
-            }
-            if ($("#phone-mail").val() < 15) {
-               $("#phone-mail").css("border", "1px solid red");
-               pass = false;
-            } else {
-               pass = true;
-               $("#phone-mail").css("border", "1px solid black");
-            }
-            if (!isEmail($("#email-mail").val())) {
-               $("#email-mail").css("border", "1px solid red");
-               pass = false;
-            } else {
-               pass = true;
-               $("#email-mail").css("border", "1px solid black");
-            }
+            var nameInput = $("#name-mail");
+            var phoneInput = $("#phone-mail");
+            var emailInput = $("#email-mail");
+
+            var pass = validateForm(nameInput, 3) &&
+               validateForm(phoneInput, 15) &&
+               isEmail(emailInput.val());
 
             if (pass) {
-               var gaTags = window.JSCOOKIES.get("__utmz") || "";
-               var gaCode = window.JSCOOKIES.get("_ga") || "";
-               var gaSend = {
-                  UtmSource: "",
-                  UtmCampaign: "",
-                  UtmMedium: "",
-                  UtmTerm: "",
-                  UtmContent: "",
-                  CodigoGa: "",
-               };
-
-               var data = {
-                  idCidade: idCidade,
-                  IdImovelOrigem: IdImovelOrigem,
-                  IdImovel: idImovel,
-                  Nome: $("#name-mail").val(),
-                  Telefone: $("#phone-mail").val(),
-                  Email: $("#email-mail").val(),
-                  ReceberNovidades: $("#news-mail").hasClass("checked"),
-               };
-               Object.keys(gaSend).forEach((e) => (data[e] = gaSend[e]));
-               let idLead = "";
-               $.post(
-                  "#",
-                  data
-               ).done(function (rep) {
-                  idLead = rep.idLead;
-                  $(".modal-content .active").addClass("hidden");
-                  $(".modal-content .active").removeClass("active");
-                  if (rep.success) {
-                     $(".modal-success").addClass("active");
-                     $(".modal-success").removeClass("hidden");
-                  } else {
-                     $(".modal-error").addClass("active");
-                     $(".modal-error").removeClass("hidden");
-                     $("#error-text").html(rep.msg)
-                  }
-                  $("#sendMailForm").removeAttr("disabled");
-                  $("#backMailForm").removeAttr("disabled");
-               });
+               closeModal();
             }
-         })
-         // 3 - Form WhatsApp
+         });
+
          $("#sendWhatsForm").click(function (event) {
             event.preventDefault();
-            $("#sendWhatsForm").attr("disabled", true);
-            $("#backWhatsForm").attr("disabled", true);
-            var pass = true;
-            if ($("#name-whats").val() < 3) {
-               $("#name-whats").css("border", "1px solid red");
-               pass = false;
-            } else {
-               pass = true;
-               $("#name-whats").css("border", "1px solid black");
-            }
-            if ($("#phone-whats").val() < 15) {
-               $("#phone-whats").css("border", "1px solid red");
-               pass = false;
-            } else {
-               pass = true;
-               $("#phone-whats").css("border", "1px solid black");
-            }
+            var nameInput = $("#name-whats");
+            var phoneInput = $("#phone-whats");
+
+            var pass = validateForm(nameInput, 3) &&
+               validateForm(phoneInput, 15);
 
             if (pass) {
-               var gaTags = window.JSCOOKIES.get("__utmz") || "";
-               var gaCode = window.JSCOOKIES.get("_ga") || "";
-               var gaSend = {
-                  UtmSource: "",
-                  UtmCampaign: "",
-                  UtmMedium: "",
-                  UtmTerm: "",
-                  UtmContent: "",
-                  CodigoGa: "",
-               };
-
-               var data = {
-                  idCidade: idCidade,
-                  IdImovelOrigem: IdImovelOrigem,
-                  IdImovel: idImovel,
-                  Nome: $("#name-whats").val(),
-                  Telefone: $("#phone-whats").val(),
-               };
-               Object.keys(gaSend).forEach((e) => (data[e] = gaSend[e]));
-
-               let idLead = "";
+               closeModal();
             }
-         })
-         // 4 - Form We Call You
+         });
+
          $("#sendCallUForm").click(function (event) {
             event.preventDefault();
-            $("#sendCallUForm").attr("disabled", true);
-            $("#backCallUForm").attr("disabled", true);
-            var pass = true;
-            if ($("#name-call-u").val() < 3) {
-               $("#name-call-u").css("border", "1px solid red");
-               pass = false;
-            } else {
-               pass = true;
-               $("#name-call-u").css("border", "1px solid black");
-            }
-            if ($("#phone-call-u").val() < 15) {
-               $("#phone-call-u").css("border", "1px solid red");
-               pass = false;
-            } else {
-               pass = true;
-               $("#phone-call-u").css("border", "1px solid black");
-            }
+            var nameInput = $("#name-call-u");
+            var phoneInput = $("#phone-call-u");
+
+            var pass = validateForm(nameInput, 3) &&
+               validateForm(phoneInput, 15);
 
             if (pass) {
-               var gaTags = window.JSCOOKIES.get("__utmz") || "";
-               var gaCode = window.JSCOOKIES.get("_ga") || "";
-               var gaSend = {
-                  UtmSource: "",
-                  UtmCampaign: "",
-                  UtmMedium: "",
-                  UtmTerm: "",
-                  UtmContent: "",
-                  CodigoGa: "",
-               };
-               var timeCall = ''
-               switch ($("#time-call-u").val()) {
-                  case 'morning':
-                     timeCall = '10:00'
-                     break
-                  case 'afternoon':
-                     timeCall = '15:00'
-                     break
-                  case 'evening':
-                     timeCall = '19:00'
-                     break
-                  default:
-                     timeCall = '10:00'
-               }
-               var now = new Date();
-               var dateCall = "" + now.getUTCDate() + "-" + (now.getMonth() + 1) + "-" + now.getUTCFullYear() + "";
-               var data = {
-                  idCidade: idCidade,
-                  IdImovelOrigem: IdImovelOrigem,
-                  IdImovel: idImovel,
-                  Nome: $("#name-call-u").val(),
-                  Telefone: $("#phone-call-u").val(),
-                  HoraLigacao: timeCall,
-                  DataLigacao: dateCall,
-               };
-               Object.keys(gaSend).forEach((e) => (data[e] = gaSend[e]));
-
-               let idLead = "";
+               closeModal();
             }
-         })
+         });
 
          var elements = [
-            "#t3", "#t4", "#t5", "#t6", "#t7", "#t8", "#t9", "#t14", "#t16", "#t17",
-            "#t18", "#t19", "#img3", "#img4", "#img5", "#img6", "#img7", "#img8",
-            "#img9", "#img10", "#img11", "#img12", "#img13", "#img14", "#img15",
-            "#img16", "#img18"
+            "#t0", "#t1", "#t2", "#t3", "#t4", "#t5", "#t6", "#t7", "#t8", "#t9",
+            "#t10", "#t11", "#t12", "#t13", "#t14", "#t15", "#t16", "#t17",
+            "#t18", "#t19", "#t20", "#t21", "#t22", "#t23", "#t24",
+            "#t25", "#t26"
          ];
 
          var windowHeight = $(window).innerHeight();
@@ -1040,37 +773,22 @@
             checkIsVisible(element, windowHeight);
          });
 
-         function checkIsVisible(element, windowHeight) {
-            var trigger = $(element).offset().top + $(element).outerHeight();
-
-            if (trigger < windowHeight) {
-               showElement(element);
-            }
-         }
-
          $(window).on("scroll", function () {
             var scroll = $(window).scrollTop() + $(window).innerHeight();
             if ($(window).scrollTop() > 80) {
-               $(".fake-chat").css({
+               $(".chat").css({
                   display: "block",
                   visibility: "visible"
                }).addClass("animate__animated animate__fadeInUp");
             }
-            var elements = [
-               "#t3", "#t4", "#t5", "#t6", "#t7", "#t8", "#t9", "#t14", "#t16", "#t17",
-               "#t18", "#t19", "#img3", "#img4", "#img5", "#img6", "#img7", "#img8",
-               "#img9", "#img10", "#img11", "#img12", "#img13", "#img14", "#img15",
-               "#img16", "#img18"
-            ];
 
-            $.each(elements, function (index, element) {
+            elements.forEach(function (element) {
                if (scroll > $(element).offset().top) {
                   showElement(element);
                }
             });
          });
       });
-
    </script>
 </body>
 
